@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/company_main.css">
+    <link rel="stylesheet" href="src/css/Google-fontstyle.css">
+    <script src="src/dist/js/jquery-1.7.2.js"></script>
+    <script src="src/dist/js/bootstrap.js"></script>
+    <title>Company</title>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!--[if lte IE8]>
+<p class="browserupgrade">您的浏览器版本过低，请点击 <a href="http://www.browsehappy.com">这里</a>进行更新，以获取最佳的用户体验。</p>
+<![endif]-->
+
+<!--导航栏-->
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span><img src="src/img/you.png" class="img-responsive" alt="Logo"
+                                                            width="50" height="50"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#about">简介</a></li>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#portfolio">评价</a></li>
+                    <li><a href="#pricing">套餐</a></li>
+                    <li><a href="#contact">沟通</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--简介-->
+    <div class="jumbotron text-center">
+        <h1>友邦公益</h1>
+        <p>我们专注于解决情侣间的情感问题，擅长挑选节日礼品，周末假期安排，美食旅游攻略推荐，惬意的生活从此刻开始。</p>
+        <!--在这里表单的第一种写法
+            <div class="container">
+            <form action="#"role="form" class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-sm-8">
+                        <input class="form-control" type="email" placeholder="请输入邮箱">
+                    </div>
+                    <button class="col-sm-2 btn btn-danger " type="submit" >订阅</button>
+                </div>
+            </form>
+        </div>
+        -->
+        <form action="#" class="form-inline">
+            <input type="email" class="form-control" size="50" placeholder="请输入您的邮箱">
+            <button type="button" class="btn btn-danger btn-sub">订阅</button>
+        </form>
+    </div>
+</header>
+
+
+<div class="container">
+    <!--添加内容-->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>简介</h2>
+                <h4>创始人：Donald Chen</h4>
+                <p>自号：皇兄，大三老油条，阳光热情，乐于助人，但最讨厌被叫好人。</p>
+                <p>创建友邦公益的初衷是想用实际行动，尽自己的所能去帮助那些需要帮助的小伙伴，
+                    应为每个人都会有无助的时候，特别是在自己不擅长的领域，如果我能把很多的朋友聚集在一起，
+                    在彼此有需要的时候，无需振臂一呼，而是发条信息--What problem I am meeting now and I need help！
+                    然后大家都出来出出主意。
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="src/img/mingren.png" alt="Author">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>骨干成员</h2>
+                <h4>友邦公益现有成员<strong>管理员8名</strong>,个个呆萌可爱，热情好客，乐善好施</h4>
+                <p><strong>活跃小王子有：</strong>小豪哥，子良兄</p>
+            </div>
+        </div>
+    </div>
+
+    <!--我们提供的服务-->
+    <div id="services" class="container-fluid text-center">
+        <h2>Our Service</h2>
+        <h4>我们为您提供：</h4>
+        <div class="row row-style">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off small-logo"></span>
+                <h4>影视资源</h4>
+                <p>各种暴漫，浪漫韩剧，凄美国产剧，统统不提供。</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-music small-logo"></span>
+                <h4>音乐快讯</h4>
+                <p>最新音乐资讯，明星八卦，韩星娱乐，我也没有。</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-book small-logo"></span>
+                <h4>学习资料</h4>
+                <p>说真的，别的没有，皇兄这个一大把，要多少有多少。</p>
+            </div>
+        </div>
+        <div class="row row-style">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-map-marker small-logo"></span>
+                <h4>美食地图</h4>
+                <p>作为一名资深的吃货，说真的，广州食堂的菜式我统统试过了。</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-tower small-logo"></span>
+                <h4>旅游攻略</h4>
+                <p>我能想到的最好玩的地方，就是荔湾区的荔湾风景区。</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench small-logo"></span>
+                <h4>电脑维修</h4>
+                <p>不是吹，一般的网络问题我真的不会，群上我上传了各种解决方案了，各位姐姐你们可以先看看吗？</p>
+            </div>
+        </div>
+    </div>
+
+    <!--萌芽-->
+    <div class="container-fluid text-center bg-grey">
+        <h2>成员分布</h2>
+        <h4>如果可以，我只想待在南海那个小天坛，坐拥美食，美景，大图书馆，谈一场普普通通的恋爱。</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="src/img/nanhai.jpg" alt="广州">
+                    <p><strong>南海校区</strong></p>
+                    <p>友邦公益，是我在大二的时候创建的，南海是个好地方，要加倍珍惜。</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="src/img/zhongxin.jpg" alt="广州">
+                    <p><strong>IT服务中心</strong></p>
+                    <p>这里是友邦公益这个理念萌芽的地方，有一群可爱的战友，有一段难忘的情。</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="src/img/guangzhou.jpg" alt="广州">
+                    <p><strong>广州校区</strong></p>
+                    <p>岁月静好，初心不忘，微笑长留，我依旧心心念念，愿你们过得更好。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--顾客评价-->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <h2>好友评价</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President</span>
+                    </h4>
+                </div>
+                <div class="item">
+                    <h4>"One word... WOW!!One word... WOW!!One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span>
+                    </h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--创建一个价格列表-->
+    <div id="pricing" class="container-fluid text-center bg-grey">
+        <div class="text-center">
+            <h2>套餐</h2>
+            <h4>友邦公益提供各种服务套餐，现在所有套餐都在 <span class="badge">限时打折</span> 中</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 ">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>基础套餐</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>影视资源</strong> 10部</p>
+                        <p><strong>最新音讯</strong> 10首</p>
+                        <p><strong>在线援助</strong> 1小时</p>
+                        <p><strong>软件安装</strong> 5个</p>
+                        <p><strong>网络问题</strong> 10次</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>￥1.99</h3>
+                        <h4>每月</h4>
+                        <button class="btn btn-lg"  data-target="#mymodal" data-toggle="modal">抢购</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 ">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>中级套餐</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>影视资源</strong> 30部</p>
+                        <p><strong>最新音讯</strong> 30首</p>
+                        <p><strong>在线援助</strong> 2小时</p>
+                        <p><strong>软件安装</strong> 15个</p>
+                        <p><strong>网络问题</strong> 20次</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>￥7.41</h3>
+                        <h4>每月</h4>
+                        <button class="btn btn-lg"  data-target="#mymodal" data-toggle="modal">抢购</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 ">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>高级套餐</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>影视资源</strong> 50部</p>
+                        <p><strong>最新音讯</strong> 50首</p>
+                        <p><strong>在线援助</strong> 5小时</p>
+                        <p><strong>软件安装</strong> 25个</p>
+                        <p><strong>网络问题</strong> 100次</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>￥9.99</h3>
+                        <h4>每月</h4>
+                        <button class="btn btn-lg" data-target="#mymodal" data-toggle="modal">抢购</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 购票模态框 -->
+    <div class="modal fade" id="mymodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <h5><span class="glyphicon glyphicon-lock my-lock-logo">热销中</span></h5>
+                </div>
+                <div class="modal-body">
+                    <form action="#" role="form">
+                        <div class="form-group">
+                            <label for="psw">
+                                <span class="glyphicon glyphicon-shopping-cart">加入购物车：</span>
+                            </label>
+                            <input type="number" class="form-control" id="psw" placeholder="请输入您需要购买的套餐数量">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">
+                                <span class="glyphicon glyphicon-user">发送</span>
+                            </label>
+                            <input type="email" class="form-control" id="username" placeholder="请输入邮箱">
+                        </div>
+                        <button class="btn btn-block" type="submit">下单
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default pull-left">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        取消</button>
+                    <p>需要<a href="#">帮助？</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--交流区域-->
+    <div id="contact" class="container-fluid bg-grey" style="padding-top:50px;">
+        <h2 class="text-center"> 联系我们</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>请在24小时内联系我们，我们的小伙伴会及时和您取得联系.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> 广东轻工职业技术学院 南海校区</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 7417417474741</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> rj14108@163.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" type="text" placeholder="用户名：" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="邮箱:" type="text" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" row="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-primary pull-right">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <!-- 多说评论框 start --> <div class="ds-thread" data-thread-key="2" data-title="友邦公益" data-url="https://myloveann.github.io/Company/company_index.html"></div>
+    <!-- 多说评论框 end --> <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript"> var duoshuoQuery = {short_name:"myloveann"};
+    (function() { var ds = document.createElement('script'); ds.type = 'text/javascript';ds.async = true; ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js'; ds.charset = 'UTF-8'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds); })(); </script> <!-- 多说公共JS代码 end -->
+</div>
+
+<footer class="container-fluid text-center" style="padding-bottom: 0px">
+    <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Made By Donald Chen</p>
+</footer>
+
+
+</body>
+<script>
+    $(document).ready(function () {
+        $(".navbar a,footer a[href='#myPage']").on('click', function (event) {
+            //阻止事件冒泡
+            event.preventDefault();
+            //存储当前的id值
+            var hash = this.hash;
+            $('html,body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+                //回调函数
+                window.location.hash = hash;
+            })
+        })
+    });
+</script>
