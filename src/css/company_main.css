@@ -330,4 +330,7 @@ footer .glyphicon {
     padding: 40px 50px;
 }
 
+textarea {
+  resize : none;
+}
 
